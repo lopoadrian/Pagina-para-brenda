@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="https://kit.fontawesome.com/d63f9b83c1.js" crossorigin="anonymous"></script>
+  
+  <title>Curriculum Web</title>
+
+ 
+</head>
+<body>
+  <div class="contenedor">
+    <div class="imagen">
+      <div class="imagen__monitor">
+      </div>
+     
+      
+    </div>
+    <div class="informacion">
+      <h1>Michelle  Perez </h1>
+      <p class="titulo">Tecnica en Administracion y Finanzas</p>
+      
+      <div class="informacion__contenido contenido">
+        <h2 class="titulo1"><a href="#" onclick="invertir('1')"> Informacion Personal</a></h2>
+        <img src="/images/icon-arrow-down.svg" class="flecha flecha1" onclick="invertir('1')" alt="flecha">
+      </div>
+      <div class="parrafo1 noMostrar">
+        <ul>
+          <li><i class="fa-solid fa-check"></i> <span>Edad:</span> 35 Años</li>
+          <li><i class="fa-solid fa-check"></i> <span>Nacionalidad:</span> Argentina</li>
+          <li><i class="fa-solid fa-check"></i> <span>Provincia:</span> Buenos Aires</li>
+          <li><i class="fa-solid fa-check"></i> <span>Localidad:</span> CABA</li>
+          <li><i class="fa-solid fa-check"></i> <span>Direccion:</span> Av.Libertador 5236</li>
+          <li><i class="fa-solid fa-check"></i> <span>Fecha de nacimiento:</span> 1985</li>
+          <li><i class="fa-solid fa-check"></i> <span>Estado Civil:</span> Soltero</li>
+        </ul>
+        
+      </div>
+      <hr>
+      
+      <div class="informacion__contenido">
+        <h2 class="titulo2" style="font-weight: 700;"><a href="#" onclick="invertir('2')">Experiencia</a></h2>
+        <img src="/images/icon-arrow-down.svg" class="flecha flecha2 flecha--invertida " onclick="invertir('2')" alt="flecha">
+      </div>
+      <div class="parrafo2 abierto" >
+        <h3>Administrativo contable</h3>
+          <p><span>Speed Telematics</span> | Cádiz | 10/2019 - 07/2020</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Registro de transacciones en diarios, libros contables y otros registros.</li>
+            <li><i class="fa-solid fa-check"></i> Elaboración de declaraciones de impuestos e identificación de las potenciales reducciones y deducibles tributarios.</li>
+          </ul>
+  
+        <h3>Administrativo contable</h3>
+          <p><span>SDPL</span> | Puerto Real | 04/2018 - 08/2019</p>
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Cumplimiento de las obligaciones fiscales relevantes.</li>
+              <li><i class="fa-solid fa-check"></i> Gestión de la facturación mediante el uso de DataCRM y Alegra.</li>
+            </ul>
+      </div>
+      <hr>
+
+        
+        <div class="informacion__contenido">
+          <h2 class="titulo3"><a href="#" onclick="invertir('3')">Habilidades</a></h2>
+          <img src="/images/icon-arrow-down.svg" class="flecha flecha3" onclick="invertir('3')" alt="flecha">
+        </div>
+        <div class="parrafo3 noMostrar"> 
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Entrada y gestion de datos.</li>
+            <li><i class="fa-solid fa-check"></i> Analisis de datos.</li>
+            <li><i class="fa-solid fa-check"></i> Gestion de factura, albaranes y presupuesto.</li>
+            <li><i class="fa-solid fa-check"></i> Dominio de la suite de Microsoft Office.</li>
+            <li><i class="fa-solid fa-check"></i> Planificacion de eventos.</li>
+            <li><i class="fa-solid fa-check"></i> Trabajo en equipo.</li>
+            <li><i class="fa-solid fa-check"></i> Organización del correo.</li>
+            <li><i class="fa-solid fa-check"></i> Seguimiento de clientes y proveedores.</li>
+          </ul>
+        </div>
+        <hr>
+        
+        <div class="informacion__contenido ">
+          <h2 class="titulo4"><a href="#" onclick="invertir('4')">Idiomas</a></h2>
+          <img src="/images/icon-arrow-down.svg" class="flecha flecha4" onclick="invertir('4')" alt="flecha">
+        </div>
+        <div class="parrafo4 noMostrar">
+          <ul>
+            <li><i class="fa-solid fa-check"></i> <span>Español:</span> Lengua nativa.</li>
+            <li><i class="fa-solid fa-check"></i> <span>Inglés:</span> Nivel B2.</li>
+          </ul>
+        </div>
+
+       
+    </div>
+  </div>
+  <script src="/js/funciones.js"></script>
+</body>
+</html>
